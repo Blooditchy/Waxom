@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Document</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400&amp;amp;subset=cyrillic"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"/>
     <link rel="stylesheet" href="./static/css/normalize.css"/>
     <link rel="stylesheet" href="./static/css/main.css"/>
   </head>
@@ -15,11 +16,11 @@
       <section class="section hero">
         <div class="container hero-container">
           <header class="header">
-            <div class="logo"><a class="logo__link" href="javascript:void(0)"><img class="logo-pic" src="../static/img/logo.png"/></a></div>
+            <div class="logo"><a class="logo__link" href="javascript:void(0)"><img class="logo-pic" src="./static/img/logo.png"/></a></div>
             <nav class="nav">
               <ul class="nav__list">
-                <li class="nav__item"><a class="nav__link" href="javascript:void(0)">Home</a></li>
-                <li class="nav__item"><a class="nav__link active" href="javascript:void(0)">About Us</a></li>
+                <li class="nav__item"><a class="nav__link active" href="javascript:void(0)">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="javascript:void(0)">About Us</a></li>
                 <li class="nav__item"><a class="nav__link" href="javascript:void(0)">Portfolio</a></li>
                 <li class="nav__item"><a class="nav__link" href="javascript:void(0)">Features</a></li>
                 <li class="nav__item"><a class="nav__link" href="javascript:void(0)">Blog</a></li>
@@ -28,18 +29,51 @@
                 <li class="nav__item"><a class="nav__link" href="javascript:void(0)">Contact</a></li>
               </ul>
             </nav>
-            <div class="user-block"><a class="user-block__basket" href="javascript:void(0)">Basket</a><a class="user-block__search" href="javascript:void(0)">Search</a></div>
+            <div class="user-block"><a class="user-block__basket" href="javascript:void(0)">Basket</a><a class="user-block__search" href="javascript:void(0)">Search</a>
+              <form action="">
+                <input class="main-search" type="text" placeholder="Search"/>
+              </form>
+            </div>
+            <div class="hum">
+              <div class="hum__line"></div>
+              <div class="hum__line"></div>
+              <div class="hum__line"></div>
+            </div>
           </header>
           <div class="hero__content">
-            <div class="hero__descr">
-              <div class="hero__title">
-                <p>Unique and Modern Design</p>
-                <h1>Portfolio PSD Template</h1>
+            <div class="hero__content-inner">
+              <div class="hero__content-items">
+                <div class="hero__descr">
+                  <div class="hero__title">
+                    <p>Unique and Modern Design</p>
+                    <h1>Portfolio PSD Template</h1>
+                  </div>
+                  <div class="hero__text">
+                    <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imper- <br> diet doming id quod mazim placerat facer possim assum.</p>
+                  </div>
+                  <div class="hero__btn"><a class="btn" href="javascript:void(0)">Get Started</a></div>
+                </div>
+                <div class="hero__descr">
+                  <div class="hero__title">
+                    <p>Unique and Modern Design</p>
+                    <h1>Portfolio PSD Template</h1>
+                  </div>
+                  <div class="hero__text">
+                    <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imper- <br> diet doming id quod mazim placerat facer possim assum.</p>
+                  </div>
+                  <div class="hero__btn"><a class="btn" href="javascript:void(0)">Get Started</a></div>
+                </div>
+                <div class="hero__descr">
+                  <div class="hero__title">
+                    <p>Unique and Modern Design</p>
+                    <h1>Portfolio PSD Template</h1>
+                  </div>
+                  <div class="hero__text">
+                    <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imper- <br> diet doming id quod mazim placerat facer possim assum.</p>
+                  </div>
+                  <div class="hero__btn"><a class="btn" href="javascript:void(0)">Get Started</a></div>
+                </div>
               </div>
-              <div class="hero__text">
-                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imper- <br> diet doming id quod mazim placerat facer possim assum.</p>
-              </div>
-              <div class="hero__btn"><a class="btn" href="javascript:void(0)">Get Started</a></div>
             </div><a class="arrow-left" href="javascript:void(0)"></a><a class="arrow-right" href="javascript:void(0)"></a>
           </div>
         </div>
@@ -84,21 +118,21 @@
             <div class="realization__image"><img class="realization-pic" src="../static/img/content/realization/browser-center.jpg"/></div>
           </div>
         </div>
+      </section>
+      <section class="section projects">
         <div class="buy">
           <div class="container buy__container">
             <div class="buy__descr">
               <div class="section__title section__title_mb">
                 <h2> <span class="section__title_color-hoverColor">Waxom </span><span class="section__title_color-white">Multipurpose WordPress Theme</span></h2>
               </div>
-              <div class="buy__text">
-                <p>Don't Forget to Rate the Template. Thanks so much!</p>
-              </div>
+            </div>
+            <div class="buy__text">
+              <p>Don't Forget to Rate the Template. Thanks so much!</p>
             </div>
             <div class="buy__button"><a class="btn" href="javascript:void(0)">Purchase now</a></div>
           </div>
         </div>
-      </section>
-      <section class="section projects">
         <div class="container">
           <div class="projects__descr">
             <div class="section__title">
@@ -248,43 +282,173 @@
               </div>
             </div>
             <div class="recent__slider">
-              <ul class="slider__list">
-                <li class="slider__item">
-                  <div class="slider__image"><img class="slider-pic" src="./static/img/content/recent/photo.jpg"/></div>
-                  <div class="slider__info">
-                    <div class="slider__info-title">Lorem ipsum dolor sit amet</div>
-                    <div class="slider__info-text">
-                      <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+              <div class="recent__slider-arrow"><a class="arrow-prev" href="javascript:void(0)"></a><a class="arrow-next" href="javascript:void(0)"> </a></div>
+              <div class="slider__inner">
+                <div class="slider__list">
+                  <div class="slider__item">
+                    <div class="slider__image"><img class="slider-pic" src="./static/img/content/recent/photo.jpg"/></div>
+                    <div class="slider__info">
+                      <div class="slider__info-title">Lorem ipsum dolor sit amet</div>
+                      <div class="slider__info-text">
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                      </div>
+                      <div class="slider__button"><a href="javascript:void(0)">Read more</a></div>
                     </div>
-                    <div class="slider__button"><a href="javascript:void(0)">Read more</a></div>
                   </div>
-                </li>
-                <li class="slider__item">
-                  <div class="slider__image"><img class="slider-pic" src="./static/img/content/recent/photo2.jpg"/></div>
-                  <div class="slider__info">
-                    <div class="slider__info-title">Lorem ipsum dolor sit amet</div>
-                    <div class="slider__info-text">
-                      <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <div class="slider__item">
+                    <div class="slider__image"><img class="slider-pic" src="./static/img/content/recent/photo2.jpg"/></div>
+                    <div class="slider__info">
+                      <div class="slider__info-title">Lorem ipsum dolor sit amet</div>
+                      <div class="slider__info-text">
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                      </div>
+                      <div class="slider__button"><a href="javascript:void(0)">Read more</a></div>
                     </div>
-                    <div class="slider__button"><a href="javascript:void(0)">Read more</a></div>
                   </div>
-                </li>
-                <li class="slider__item">
-                  <div class="slider__image"><img class="slider-pic" src="./static/img/content/recent/photo3.jpg"/></div>
-                  <div class="slider__info">
-                    <div class="slider__info-title">Lorem ipsum dolor sit amet</div>
-                    <div class="slider__info-text">
-                      <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <div class="slider__item">
+                    <div class="slider__image"><img class="slider-pic" src="./static/img/content/recent/photo3.jpg"/></div>
+                    <div class="slider__info">
+                      <div class="slider__info-title">Lorem ipsum dolor sit amet</div>
+                      <div class="slider__info-text">
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                      </div>
+                      <div class="slider__button"><a href="javascript:void(0)">Read more</a></div>
                     </div>
-                    <div class="slider__button"><a href="javascript:void(0)">Read more</a></div>
                   </div>
-                </li>
-              </ul>
-              <div class="recent__slider-arrow"><a class="arrow-prev" href="javascript:void(0)">prev</a><a class="arrow-next" href="javascript:void(0)">next</a></div>
+                </div>
+                <div class="slider__list">
+                  <div class="slider__item">
+                    <div class="slider__image"><img class="slider-pic" src="./static/img/content/recent/photo.jpg"/></div>
+                    <div class="slider__info">
+                      <div class="slider__info-title">Lorem ipsum dolor sit amet</div>
+                      <div class="slider__info-text">
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                      </div>
+                      <div class="slider__button"><a href="javascript:void(0)">Read more</a></div>
+                    </div>
+                  </div>
+                  <div class="slider__item">
+                    <div class="slider__image"><img class="slider-pic" src="./static/img/content/recent/photo2.jpg"/></div>
+                    <div class="slider__info">
+                      <div class="slider__info-title">Lorem ipsum dolor sit amet</div>
+                      <div class="slider__info-text">
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                      </div>
+                      <div class="slider__button"><a href="javascript:void(0)">Read more</a></div>
+                    </div>
+                  </div>
+                  <div class="slider__item">
+                    <div class="slider__image"><img class="slider-pic" src="./static/img/content/recent/photo3.jpg"/></div>
+                    <div class="slider__info">
+                      <div class="slider__info-title">Lorem ipsum dolor sit amet</div>
+                      <div class="slider__info-text">
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                      </div>
+                      <div class="slider__button"><a href="javascript:void(0)">Read more</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <section class="section partners">
+        <div class="container">
+          <ul class="partners__list">
+            <li class="partners__item"><a class="partners__link" href="javascript:void(0)"><img class="partners-pic" src="./static/img/content/partners/logo-01.png"/></a></li>
+            <li class="partners__item"><a class="partners__link" href="javascript:void(0)"><img class="partners-pic" src="./static/img/content/partners/logo-02.png"/></a></li>
+            <li class="partners__item"><a class="partners__link" href="javascript:void(0)"><img class="partners-pic" src="./static/img/content/partners/logo-03.png"/></a></li>
+            <li class="partners__item"><a class="partners__link" href="javascript:void(0)"><img class="partners-pic" src="./static/img/content/partners/logo-04.png"/></a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section collection">
+        <div class="container">
+          <div class="collection__inner">
+            <div class="collection-waxom">
+              <div class="logo"><a class="logo__link" href="javascript:void(0)"><img class="logo-pic" src="./static/img/logo.png"/></a></div>
+              <div class="collection-waxom__text">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+              </div>
+            </div>
+            <div class="collection-posts">
+              <h3 class="collection-title">Recent Posts</h3>
+              <ul class="collection-posts__list">
+                <li class="collection-posts__item">
+                  <div class="collection-posts__data">September 08, 2015</div>
+                  <div class="collection-posts__text">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                  </div>
+                </li>
+                <li class="collection-posts__item">
+                  <div class="collection-posts__data">September 08, 2015</div>
+                  <div class="collection-posts__text">
+                    <p>Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+                  </div>
+                </li>
+                <li class="collection-posts__item">
+                  <div class="collection-posts__data">September 08, 2015</div>
+                  <div class="collection-posts__text">
+                    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="collection-twitter">
+              <h3 class="collection-title">Our Twitter</h3>
+              <ul class="collection-twitter__list">
+                <li class="collection-twitter__item">
+                  <div class="collection-twitter__msg">
+                    <p>@waxom Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                  </div>
+                  <div class="collection-twitter__time">3 mins ago</div>
+                </li>
+                <li class="collection-twitter__item">
+                  <div class="collection-twitter__msg">
+                    <p>Mirum est #envato notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                  </div>
+                  <div class="collection-twitter__time">5 hours ago</div>
+                </li>
+                <li class="collection-twitter__item">
+                  <div class="collection-twitter__msg">
+                    <p>Soluta nobis option bit.ly/1Hniso7</p>
+                  </div>
+                  <div class="collection-twitter__time">20 days ago</div>
+                </li>
+              </ul>
+            </div>
+            <div class="collection-widget">
+              <h3 class="collection-title">Dribbble Widget</h3>
+              <div class="collection-widget__col">
+                <div class="collection-widget__row"><a class="widget-link" href="javascript:void(0)"><img class="widget-pic" src="./static/img/content/collection/photo.jpg"/></a><a class="widget-link" href="javascript:void(0)"><img class="widget-pic" src="./static/img/content/collection/photo2.jpg"/></a></div>
+                <div class="collection-widget__row"><a class="widget-link" href="javascript:void(0)"><img class="widget-pic" src="./static/img/content/collection/photo3.jpg"/></a><a class="widget-link" href="javascript:void(0)"><img class="widget-pic" src="./static/img/content/collection/photo4.jpg"/></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container footer__container">
+            <div class="footer__left">
+              <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="javascript:void(0)">Copyright © 2015 <span>Waxom</span></a></li>
+                <li class="footer__item"><a class="footer__link" href="javascript:void(0)">Privacy Policy</a></li>
+                <li class="footer__item"><a class="footer__link" href="javascript:void(0)">FAQ</a></li>
+                <li class="footer__item"><a class="footer__link" href="javascript:void(0)">Support</a></li>
+              </ul>
+            </div>
+            <div class="footer__right">
+              <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="javascript:void(0)">Designed by <span>ThemeFire</span></a></li>
+                <li class="footer__item"><a class="footer__link" href="javascript:void(0)">Only on <span>Envato Market</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </section>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="./static/js/main.js"></script>
   </body>
 </html>
