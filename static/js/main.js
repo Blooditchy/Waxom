@@ -38,7 +38,7 @@ $(document).ready(function () {
         nextText: '',
         nextSelector: '.arrow-next',
         prevText: '',
-        prevSelector: '.arrow-prev'
+        prevSelector: '.arrow-prev',
     });
 });//конец ready
 
